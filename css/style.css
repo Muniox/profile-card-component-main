@@ -1,3 +1,15 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 1px solid black;
+}
+
+:root {
+  font-size: 100%;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
@@ -5,5 +17,14 @@
 
 .attribution a {
   color: #3e52a3;
+}
+
+body {
+  min-height: 100vh;
+}
+
+.card {
+  height: 350px;
+  width: 374px;
 }
 /*# sourceMappingURL=style.css.map */
