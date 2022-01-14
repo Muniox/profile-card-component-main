@@ -13,6 +13,10 @@
 .attribution a { color: hsl(228, 45%, 44%); }
 
 body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     min-height: 100vh;
 }
 
