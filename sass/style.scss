@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    border: 1px solid black;
+    // border: 1px solid black;
 }
 
 :root {
@@ -13,10 +13,42 @@
 .attribution a { color: hsl(228, 45%, 44%); }
 
 body {
+    background-color: hsl(185, 75%, 39%);
     min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .card {
-    height: 350px;
-    width: 374px;
+    min-height: 350px;
+    max-width: 374px;
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: white;
+
+    &__image-container {
+        position: relative;
+        padding-bottom: 12.5%;
+    }
+
+    &__patern {
+        width: 100%;
+        height: auto;
+    }
+
+    &__image {
+        width: 28.41%;
+        height: auto;
+        display: block;
+        height: auto;
+        border-radius: 50%;
+        border: 3px solid white;
+        position: absolute;
+        bottom: 0%;
+        left: 50%;
+        transform: translate(-50%,0);
+    }
 }
