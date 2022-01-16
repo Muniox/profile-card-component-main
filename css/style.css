@@ -19,9 +19,6 @@
 }
 
 body {
-<<<<<<< HEAD
-  background-color: #19a2ae;
-=======
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -35,21 +32,11 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
->>>>>>> 826d83bd84c40db88f37c36eeb615b556238ca7d
   min-height: 100vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   gap: 20px;
 }
 
