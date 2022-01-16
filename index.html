@@ -11,6 +11,12 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/style.css" />
     <title>Frontend Mentor | Profile card component</title>
   </head>
@@ -21,12 +27,17 @@
         <img
           class="card__image"
           src="./images/image-victor.jpg"
-          alt="Victor Crest"
+          alt="Victor Crest image"
         />
       </div>
 
-      <h2>Victor Crest 26</h2>
-      <p>London</p>
+      <div class="card__profile">
+        <h2 class="card__profile-name">
+          Victor Crest <span class="card__profile-age">26</span>
+        </h2>
+        <p class="card__profile-location">London</p>
+      </div>
+
       <div class="card__stats">
         <div class="card__stats-item">
           <p class="card__stats-amount">80K</p>
