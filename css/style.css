@@ -87,6 +87,7 @@ body::before {
   left: 50%;
   -webkit-transform: translate(-50%, 0);
           transform: translate(-50%, 0);
+  background-color: white;
 }
 
 .card__profile {
